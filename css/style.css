@@ -1,0 +1,127 @@
+.navbar-brand img{
+
+  max-height: 40px;
+
+}
+header .row{
+min-height: 100vh;
+  background-image: url(../img/sos.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+
+}
+header .formayen{
+
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
+align-items: center;
+display: flex;
+
+}
+header h3{
+  police-famille: 'Calligraffitti', cursive;
+  margin-bottom: 50px;
+
+}
+header .slogan{
+  display: flex;
+  min-height: 100vh;
+align-items: flex-end;
+justify-content: flex-end;
+
+}
+@media (max-width: 768px) { header .slogan {  display: none;
+
+
+  } }
+  .fontay{
+    min-height: calc(100vh - 50px);
+     background-image: url(../img/ayen1.png);
+    align-items: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+
+
+
+  }
+
+.assosa{
+    min-height: calc(100vh - 50px);
+  background-image: url(../img/sasa.jpg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+
+
+  #presenation:hover{
+    background-color: grey;
+  }
+
+  #adheson:hover{
+    min-height: calc(50vh - 50px);
+    background-color: grey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+  }
+  #projets .media:hover{
+    background-color: grey;
+  }
+  #formations .media:hover{
+    background-color:  grey;
+  }
+  #evenements .media:hover{
+    background-color:grey;
+  }
+.bureauass{
+  background-color: #d3daed;
+  min-height: calc(100vh - 50px);
+}
+.bureauass span{
+  font-size:50px;
+  color:#17a2b8;
+}
+#contact{
+
+  background-image: url(../img/ayen3.jpeg);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+min-height: calc(100vh - 50px);
+
+}
+#contact .row{
+  min-height: calc(100vh - 50px);
+
+
+
+}
+.formulaire{
+
+padding: 2rem 1rem;
+  background-color: rgba(255,255,255,0.7);
+}
+footer{
+  color: #999;
+
+background-color: rgba(0, 0, 0, 0.8);
+padding-top: 2rem;
+padding-bottom: : 1.5rem;
+}
+footer a{
+color: #999;
+font-size: 2.5rem;
+transition:all .2s ease-in-out;
+
+}
+footer a:hover{
+color: #fff;
+text-decoration: none;
+
+}
